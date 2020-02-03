@@ -2,7 +2,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # install java 8 and check version
-sudo apt install openjdk-8-jdk openjdk-8-jre
+sudo apt install openjdk-8-jdk openjdk-8-jre -y
 java -version
 
 # set JAVA-* env vars
